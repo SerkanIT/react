@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+* {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +22,586 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btnPlus {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.btnMinus {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.Circle {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+}
+
+
+.container {
+  max-width: calc(100% - 106px);
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 145px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 60px;
+  cursor: pointer;
+  transition: 0.7s;
+
+}
+
+.tours {
+  transition: 0.7s;
+}
+
+.feedbacks {
+  transition: 0.7s;
+}
+
+.contacts {
+  transition: 0.7s;
+}
+
+.tours:hover {
+  color: lightskyblue;
+  transition: 0.7s;
+}
+
+.feedbacks:hover {
+  color: lightskyblue;
+  transition: 0.7s;
+}
+
+.contacts:hover {
+  color: lightskyblue;
+  transition: 0.7s;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  background-image: url(../../abdullox-hack/public/assets/imgBackground\ 1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.open {
+  color: white;
+  font-size: 70px;
+  width: 830px;
+  font-family: Serkan;
+}
+
+.ivan {
+  color: white;
+  font-size: 25px;
+  width: 547px;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px 80px;
+  border-radius: 38px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 70px;
+  outline: 2px solid white;
+  transition: 0.8s;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #DD9428;
+  outline: none;
+  transition: 0.8s;
+  color: black;
+}
+
+.playBtn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transform: translate(0px, 35px);
+}
+
+.year {
+  color: #A1A8B6;
+  font-size: 16px;
+  width: 104px;
+  font-weight: 200;
+}
+
+.hehehe {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 60px;
+}
+
+.program {
+  color: white;
+  font-size: 14px;
+  width: 209px;
+  font-weight: 200;
+  padding-top: 90px;
+  transform: translate(0px, 80px);
+}
+
+
+.programs {
+  display: flex;
+  gap: 33px;
+}
+
+.program-all {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+.location {
+  position: absolute;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  width: 98px;
+  top: 125px;
+  left: 25px;
+}
+
+.raqam {
+  position: absolute;
+  color: white;
+  font-family: Serkan;
+  font-size: 25px;
+  width: 30px;
+  top: 20px;
+  left: 25px;
+}
+
+.arrow {
+  position: absolute;
+  top: 155px;
+  left: 220px;
+}
+
+.raqam2 {
+  position: absolute;
+  color: white;
+  font-family: Serkan;
+  font-size: 25px;
+  width: 30px;
+  top: 20px;
+  left: 345px;
+}
+
+.raqam3 {
+  position: absolute;
+  color: white;
+  font-family: Serkan;
+  font-size: 25px;
+  width: 30px;
+  top: 20px;
+  left: 655px;
+}
+
+.location2 {
+  position: absolute;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  width: 98px;
+  top: 125px;
+  left: 345px;
+}
+
+
+.location3 {
+  position: absolute;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  width: 98px;
+  top: 125px;
+  left: 655px;
+}
+
+.arrow2 {
+  position: absolute;
+  top: 155px;
+  left: 520px;
+}
+
+.arrow3 {
+  position: absolute;
+  top: 155px;
+  left: 850px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.hawaii {
+  margin-top: 160px;
+}
+
+.tours2 {
+  font-size: 42px;
+  width: 401px;
+  font-family: Serkan;
+}
+
+.ocean {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: black;
+  margin-top: 30px;
+  line-height: 33px;
+}
+
+.wrap-right>button {
+  color: black;
+  outline: 2px solid black;
+  padding: 25px 65px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 38px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 40px;
+  transition: 0.8s;
+}
+
+.wrap-right>button:hover {
+  transition: 0.8s;
+  color: white;
+  outline: 2px solid #DD9428;
+  background-color: #DD9428;
+}
+
+.wrap-left {
+  position: relative;
+}
+
+.april {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  color: white;
+  width: 91px;
+  font-size: mixed;
+  text-align: center;
+  font-size: Serkan;
+}
+
+.big123 {
+  position: absolute;
+  top: 517px;
+  left: 50px;
+  color: white;
+  width: 203px;
+  font-size: mixed;
+  text-align: center;
+  font-size: Serkan;
+}
+
+.arrow123 {
+  position: absolute;
+  top: 547px;
+  left: 760px;
+}
+
+.adam {
+  background-image: url(../../abdullox-hack/public/assets/form.svg);
+  margin-top: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper2 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: end;
+
+}
+
+
+.wrap-rights {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.name {
+  border-radius: 38px;
+  width: 283px;
+  padding: 25px 20px;
+  outline: black;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.name::placeholder {
+  font-size: 20px;
+  width: 106px;
+}
+
+.name2 {
+  border-radius: 38px;
+  width: 283px;
+  padding: 25px 20px;
+  outline: black;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.name2::placeholder {
+  width: 196px;
+  font-size: 20px;
+}
+
+.callagain {
+  margin-bottom: 134px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  width: 202px;
+  line-height: 33px;
+}
+
+.free {
+  margin-top: 133px;
+  font-size: 42px;
+  width: 403px;
+  font-family: Serkan;
+  margin-bottom: 30px;
+}
+
+.share {
+  outline: 2px solid black;
+  color: black;
+  transition: 0.8s;
+  padding: 25px 4px;
+  border-radius: 38px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  background: transparent;
+  margin-bottom: 98px;
+  width: 283px;
+  cursor: pointer;
+}
+
+
+.share:hover {
+  color: white;
+  outline: 2px solid #DD9428;
+  border: none;
+  background-color: #DD9428;
+}
+
+.click {
+  width: 224px;
+  font-size: 11px;
+  margin-bottom: 52px;
+  text-align: center;
+  transform: translate(35px, -80px);
+}
+
+.orange {
+  color: orange;
+
+}
+
+.wwrapper {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.wwrap-right>img {
+  margin-top: 160px;
+}
+
+.wwrap-left {
+  margin-top: 195px;
+}
+
+.feedbackwrite {
+  width: 468px;
+  font-size: 42px;
+  font-family: Serkan;
+  margin-bottom: 39px;
+}
+
+.tourist {
+  width: 448px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+  line-height: 33px;
+}
+
+.read {
+  border-radius: 38px;
+  padding: 26px 56px;
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  outline: 2px solid black;
+  border: none;
+  cursor: pointer;
+  transition: 0.8s;
+  margin-top: 50px;
+}
+
+.read:hover {
+  background-color: #DD9428;
+  outline: 2px solid #DD9428;
+  color: white;
+  transition: 0.8s;
+}
+
+.he {
+  position: absolute;
+  color: white;
+  font-size: 23px;
+  font-family: Serkan;
+  top: 200px;
+  left: 60px;
+
+}
+
+.wwrap-right {
+  position: relative;
+}
+
+.she {
+  font-size: 16px;
+  position: absolute;
+  color: white;
+  font-family: Serkan;
+  top: 230px;
+  left: 60px;
+}
+
+.life {
+  position: absolute;
+  top: 532px;
+  left: 60px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 318px;
+  line-height: 29px;
+}
+
+.arrow12 {
+  position: absolute;
+  top: 572px;
+  left: 730px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 160px;
+  height: 180px;
+  background-color: #F8F8F8;
+}
+
+.logotype {
+  margin-top: 74px;
+  margin-bottom: 71px;
+}
+
+.foot-left {
+  display: flex;
+  align-items: center;
+  gap: 123px;
+}
+
+.politica {
+  width: 163px;
+  font-size: 14px;
+  color: #90A4B2;
+}
+
+.accept {
+  width: 195px;
+  font-size: 14px;
+  color: #90A4B2;
+}
+
+.footer-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
